@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fictional Restaurant</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS (optional) -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- Header Section -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="/assets/images/logo.jpg" alt="Logo" class="img-fluid" style="max-height: 50px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section text-white text-center py-5">
+    <div class="container">
+      <h1 class=>Welcome to Our Restaurant</h1>
+      <p class=>Delicious food served with love</p>
+      <a href="#menu" class="btn btn-primary btn-lg">Explore Menu</a>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+  <section id="menu" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Our Menu</h2>
+      <div class="row">
+        <!-- Menu Item 1 -->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 shadow">
+            <img src="/assets/images/burger.jpg" class="card-img-top" alt="Dish 1">
+            <div class="card-body">
+              <h5 class="card-title">Burger</h5>
+              <p class="card-text">Juicy beef patty, crispy bacon, melted cheddar cheese, and fresh lettuce on a toasted
+                brioche bun.</p>
+              <p class="card-text price">$10.99</p>
+            </div>
+          </div>
+        </div>
+        <!-- Menu Item 2 -->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 shadow">
+            <img src="/assets/images/curry.jpg" class="card-img-top" alt="Dish 2">
+            <div class="card-body">
+              <h5 class="card-title">Curry</h5>
+              <p class="card-text">Spicy and flavorful curry made with tender chicken, vegetables, and aromatic spices
+              </p>
+              <p class="card-text price">$12.99</p>
+            </div>
+          </div>
+        </div>
+        <!-- Menu Item 3 -->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 shadow">
+            <img src="/assets/images/dumplings.jpg" class="card-img-top" alt="Dish 3">
+            <div class="card-body">
+              <h5 class="card-title">Dumplings</h5>
+              <p class="card-text">Soft and fluffy dumplings filled with savory meat, vegetables, and spices</p>
+              <p class="card-text price">$14.99</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Us Section -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <img src="/assets/images/events.png" class="img-fluid" alt="About Us">
+        </div>
+        <div class="col-md-6">
+          <h2 class="about-us">About Us</h2>
+          <p class="lead">We are a family-owned and operated restaurant that has been serving delicious food for over 10
+            years.</p>
+          <p> Our mission is to provide a warm and welcoming atmosphere for our guests to enjoy a delicious
+            meal.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Contact Us</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="bg-dark text-white text-center py-3">
+    <div class="container">
+      <p>&copy; 2023 Fictional Restaurant. All rights reserved.</p>
+      <div>
+        <a href="#" class="text-white me-3"><i class="fab fa-facebook"></i></a>
+        <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
